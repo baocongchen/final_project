@@ -24,7 +24,7 @@ In the beginning, we tried to use Luby's algorithm to solve th problem. However,
 
 
 ## Materials:
-- code:
+- code: https://github.com/baocongchen/final_project/blob/main/src/main/scala/final_project/main.scala
 - output files: https://github.com/baocongchen/final_project/blob/main/output_files.zip
 
 
