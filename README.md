@@ -11,7 +11,13 @@ For the final project, you are provided 6 CSV files, each containing an undirect
 | musae_ENGB_edges.csv          | 35324                        |
 | log_normal_100.csv            | 2671                         |  
 
-Your goal is to compute a matching as large as possible for each graph. 
+|        Graph file             |   Running time  | Num of matchings | Iterations |
+| ------------------------------|-----------------|--------------    |-------|
+| log_normal_100.csv            |        5s       |      22          |  1    |
+| musae_ENGB_edges.csv          |        5s       |      1004        |  1    |
+| soc-pokec-relationships.csv   |        4s       |      yes         |  2    |
+| twitter_1000_edges.csv        |        4s       |      yes         |  2    |
+| twitter_10000_edges.csv       |        8s       |      yes         |  3    |
 
 ### Input format
 Each input file consists of multiple lines, where each line contains 2 numbers that denote an undirected edge. For example, the input below is a graph with 3 edges.  
