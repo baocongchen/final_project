@@ -1,4 +1,6 @@
 # Large Scale Data Processing: Final Project
+# Report
+
 ## Group 3: Buu Thong Tran, Baichuan Guo, Byungmoo Kim
 
 
@@ -13,7 +15,7 @@
 
 
 ## Approach
-
+In the beginning, we tried to use Luby's algorithm to solve th problem. However, we encountered technical issues that forced us to switch to Israeli-Itai algorithm. First, we set the value of each vertex to 1. If there are active vertices, each active vertex will send messages to its neighbor. The neighbors accept a proposal at probability of x/(x+y) with x being the value of the vertex, and x+y being the sum of all values of neighboring vertices. We used aggregateMessages to achieve this mechanism. Next, we use mapVertices and the nextFloat function to randomly assign 0 or 1 to each vertex. Next, we add an edge from u to v to M if u and v accept the proprosal and u=0 and v=1. Then, we deactivate u and v by assign a value of 0 to them. The loop will stop once there are no more active vertices. Finally, we use the subgraph function to export only edges in M.
 
 ## Discussion
 - Advantages:
@@ -21,5 +23,8 @@
 
 
 
+## Materials:
+- code:
+- output files:
 
 
