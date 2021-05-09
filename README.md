@@ -15,9 +15,9 @@ For the final project, you are provided 6 CSV files, each containing an undirect
 | ------------------------------|-----------------|--------------    |-------|
 | log_normal_100.csv            |        5s       |      22          |  1    |
 | musae_ENGB_edges.csv          |        5s       |      1004        |  1    |
-| soc-pokec-relationships.csv   |        4s       |      yes         |  2    |
-| twitter_1000_edges.csv        |        4s       |      yes         |  2    |
-| twitter_10000_edges.csv       |        8s       |      yes         |  3    |
+| soc-pokec-relationships.csv   |        82s      |      yes         |  1    |
+| twitter_original_edges.csv    |        4s       |      yes         |  2    |
+| com-orkut.ungraph.csv         |        8s       |      yes         |  3    |
 
 ### Input format
 Each input file consists of multiple lines, where each line contains 2 numbers that denote an undirected edge. For example, the input below is a graph with 3 edges.  
@@ -30,19 +30,7 @@ Your output should be a CSV file listing all of the matched edges, 1 on each lin
 1,2  
 4,3  
 
-### No template is provided
-For the final project, you will need to write everything from scratch. Feel free to consult previous projects for ideas on structuring your code. That being said, you are provided a verifier that can confirm whether or not your output is a matching. As usual, you'll need to compile it with
-```
-sbt clean package
-```  
-The verifier accepts 2 file paths as arguments, the first being the path to the file containing the initial graph and the second being the path to the file containing the matching. It can be ran locally with the following command (keep in mind that your file paths may be different):
-```
-// Linux
-spark-submit --master local[*] --class final_project.verifier data/log_normal_100.csv data/log_normal_100_matching.csv
 
-// Unix
-spark-submit --master "local[*]" --class "final_project.verifier" data/log_normal_100.csv data/log_normal_100_matching.csv
-```
 
 ## Deliverables
 * The output file (matching) for each test case.
