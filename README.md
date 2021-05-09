@@ -1,7 +1,7 @@
 # Large Scale Data Processing: Final Project
 # Report
 
-## Group 3: Buu Thong Tran, Baichuan Guo, Byungmoo Kim
+## Group 1: Buu Thong Tran, Baichuan Guo, Byungmoo Kim
 
 
 |        Graph file             |  Number of edges  |   Running time  | Num of matchings | Iterations | Computational Power
