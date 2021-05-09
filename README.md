@@ -1,6 +1,6 @@
 # Large Scale Data Processing: Final Project
 ## Graph matching
-For the final project, you are provided 6 CSV files, each containing an undirected graph, which can be found [here](https://drive.google.com/file/d/1khb-PXodUl82htpyWLMGGNrx-IzC55w8/view?usp=sharing). The files are as follows:  
+
 
 |           File name           |        Number of edges       |
 | ------------------------------| ---------------------------- |
@@ -11,14 +11,14 @@ For the final project, you are provided 6 CSV files, each containing an undirect
 | musae_ENGB_edges.csv          | 35324                        |
 | log_normal_100.csv            | 2671                         |  
 
-|        Graph file             |   Running time  | Num of matchings | Iterations |
-| ------------------------------|-----------------|--------------    |-------|
-| log_normal_100.csv            |        5s       |      22          |  1    |
-| musae_ENGB_edges.csv          |        5s       |      1004        |  1    |
-| soc-pokec-relationships.csv   |        82s      |      257493      |  1    |
-| soc-LiveJournal1.csv          |        114s     |      723199      |  1    |
-| twitter_original_edges.csv    |        322s     |      50142       |  1    |
-| com-orkut.ungraph.csv         |        155s     |      513654      |  1    |
+|        Graph file             |   Running time  | Num of matchings | Iterations | Computational Power
+| ------------------------------|-----------------|--------------    |------------|------------------------------------
+| log_normal_100.csv            |        5s       |      22          |  1         | MacOS 1.6 GHz Intel Core i5, 8GB
+| musae_ENGB_edges.csv          |        5s       |      1004        |  1         | MacOS 1.6 GHz Intel Core i5, 8GB
+| soc-pokec-relationships.csv   |        82s      |      257493      |  1         | N1 series, 1 Master and 4 Nodes, each having 4 CPU and 15GB
+| soc-LiveJournal1.csv          |        114s     |      723199      |  1         | N1 series, 1 Master and 4 Nodes, each having 4 CPU and 15GB
+| twitter_original_edges.csv    |        322s     |      50142       |  1         | N1 series, 1 Master and 4 Nodes, each having 4 CPU and 15GB
+| com-orkut.ungraph.csv         |        155s     |      513654      |  1         | N1 series, 1 Master and 4 Nodes, each having 4 CPU and 15GB
 
 
 
