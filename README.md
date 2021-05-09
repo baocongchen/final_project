@@ -15,20 +15,10 @@ For the final project, you are provided 6 CSV files, each containing an undirect
 | ------------------------------|-----------------|--------------    |-------|
 | log_normal_100.csv            |        5s       |      22          |  1    |
 | musae_ENGB_edges.csv          |        5s       |      1004        |  1    |
-| soc-pokec-relationships.csv   |        82s      |      yes         |  1    |
-| twitter_original_edges.csv    |        4s       |      yes         |  2    |
-| com-orkut.ungraph.csv         |        8s       |      yes         |  3    |
-
-### Input format
-Each input file consists of multiple lines, where each line contains 2 numbers that denote an undirected edge. For example, the input below is a graph with 3 edges.  
-1,2  
-3,2  
-3,4  
-
-### Output format
-Your output should be a CSV file listing all of the matched edges, 1 on each line. For example, the ouput below is a 2-edge matching of the above input graph. Note that `3,4` and `4,3` are the same since the graph is undirected.  
-1,2  
-4,3  
+| soc-pokec-relationships.csv   |        82s      |      257493      |  1    |
+| soc-LiveJournal1.csv          |        114s     |      723199      |  1    |
+| twitter_original_edges.csv    |        322s     |      50142       |  1    |
+| com-orkut.ungraph.csv         |        155s     |      513654      |  1    |
 
 
 
